@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 383b6176e61c4c244a8ce0e80389206c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Animation/GUI/Level Indicator Open.controller
+  uploadId: 767041

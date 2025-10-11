@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a8b9b825299b8456696addfeb6356454
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Scene/Other/MenuSettings.lighting
+  uploadId: 767041

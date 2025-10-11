@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f40cf4560ec2f4665b8a9557f88bf1a6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Scene/Other/LogoSettings.lighting
+  uploadId: 767041

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ec72596f743c60e41b4a7f0ae9b212d9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Script/EnemyThrowAttack.cs
+  uploadId: 767041

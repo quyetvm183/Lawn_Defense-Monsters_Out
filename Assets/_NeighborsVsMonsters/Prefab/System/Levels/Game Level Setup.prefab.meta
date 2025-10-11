@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7d5dc98c9166e41fca1cde3128b095db
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Prefab/System/Levels/Game Level Setup.prefab
+  uploadId: 767041

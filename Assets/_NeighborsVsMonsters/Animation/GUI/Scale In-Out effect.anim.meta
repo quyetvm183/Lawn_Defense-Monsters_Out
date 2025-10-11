@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c465e1158b1c67a43ae78556214d136a
+timeCreated: 1466242102
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Animation/GUI/Scale In-Out effect.anim
+  uploadId: 767041

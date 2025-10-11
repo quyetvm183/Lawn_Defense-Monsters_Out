@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3e4cc427730b38a41ba1456c30502dc6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Animation/UI/Speed Up Game.controller
+  uploadId: 767041

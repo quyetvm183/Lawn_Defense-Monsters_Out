@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a99ceec5c23a646a08a163ba3c0409ae
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Animation/Character/Player/Gunner/Get Freez.anim
+  uploadId: 767041

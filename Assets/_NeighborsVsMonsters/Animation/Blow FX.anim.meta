@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7bc67d75d31c2624bae8bc0041a4aab4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Animation/Blow FX.anim
+  uploadId: 767041

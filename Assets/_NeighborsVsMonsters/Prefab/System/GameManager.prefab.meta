@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c944f95f26027e34a9597b919fcef8ee
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Prefab/System/GameManager.prefab
+  uploadId: 767041

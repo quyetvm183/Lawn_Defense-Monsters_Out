@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0456569c346a8cc40b693ef04ff40a03
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Prefab/Character/Player/[Player] Warrior
+    Boy.prefab
+  uploadId: 767041

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c2df008216e734f0080ed42d8baa0092
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Animation/Character/Player/Wizard Poisoned/Die.anim
+  uploadId: 767041

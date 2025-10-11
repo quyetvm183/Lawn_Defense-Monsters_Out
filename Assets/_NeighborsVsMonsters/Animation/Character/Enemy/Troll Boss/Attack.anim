@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Attack
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 585b534a3267241149a226aef1710ca5, type: 3}
+    - time: 0.05
+      value: {fileID: 21300000, guid: 5f8a07062bde0440eaa2b573a36c03f9, type: 3}
+    - time: 0.1
+      value: {fileID: 21300000, guid: 221e7211bec17421289aebcce089d597, type: 3}
+    - time: 0.15
+      value: {fileID: 21300000, guid: 26dd4668a2ace4ee98893c407f819a5f, type: 3}
+    - time: 0.2
+      value: {fileID: 21300000, guid: 351f2bd04a0af4add90204ee82385b38, type: 3}
+    - time: 0.25
+      value: {fileID: 21300000, guid: 0f4397b25f1274578b4ebfe21bc4493c, type: 3}
+    - time: 0.3
+      value: {fileID: 21300000, guid: dfce4a20271764867bf6392e702d8417, type: 3}
+    - time: 0.35
+      value: {fileID: 21300000, guid: a6bf8a21c160846caa4a2d776a3d2819, type: 3}
+    - time: 0.4
+      value: {fileID: 21300000, guid: 8564bcbd4e3df4bbf94688cb7a6d2b93, type: 3}
+    - time: 0.45
+      value: {fileID: 21300000, guid: 12b9fb64e15ce42c5b24baebadef58a1, type: 3}
+    - time: 0.5
+      value: {fileID: 21300000, guid: c6f3021afe86d4d8ca12517a51c6440a, type: 3}
+    - time: 0.55
+      value: {fileID: 21300000, guid: c05df53a19a70467f8aceb846062032f, type: 3}
+    - time: 0.6
+      value: {fileID: 21300000, guid: 71c10ec13579c4d11b29c54fb6c3f588, type: 3}
+    attribute: m_Sprite
+    path: Image
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 20
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 83635035
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: 21300000, guid: 585b534a3267241149a226aef1710ca5, type: 3}
+    - {fileID: 21300000, guid: 5f8a07062bde0440eaa2b573a36c03f9, type: 3}
+    - {fileID: 21300000, guid: 221e7211bec17421289aebcce089d597, type: 3}
+    - {fileID: 21300000, guid: 26dd4668a2ace4ee98893c407f819a5f, type: 3}
+    - {fileID: 21300000, guid: 351f2bd04a0af4add90204ee82385b38, type: 3}
+    - {fileID: 21300000, guid: 0f4397b25f1274578b4ebfe21bc4493c, type: 3}
+    - {fileID: 21300000, guid: dfce4a20271764867bf6392e702d8417, type: 3}
+    - {fileID: 21300000, guid: a6bf8a21c160846caa4a2d776a3d2819, type: 3}
+    - {fileID: 21300000, guid: 8564bcbd4e3df4bbf94688cb7a6d2b93, type: 3}
+    - {fileID: 21300000, guid: 12b9fb64e15ce42c5b24baebadef58a1, type: 3}
+    - {fileID: 21300000, guid: c6f3021afe86d4d8ca12517a51c6440a, type: 3}
+    - {fileID: 21300000, guid: c05df53a19a70467f8aceb846062032f, type: 3}
+    - {fileID: 21300000, guid: 71c10ec13579c4d11b29c54fb6c3f588, type: 3}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.65000004
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events:
+  - time: 0.4
+    functionName: AnimMeleeAttackStart
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.5
+    functionName: AnimMeleeAttackEnd
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

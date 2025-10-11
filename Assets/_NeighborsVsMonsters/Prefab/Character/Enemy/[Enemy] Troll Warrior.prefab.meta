@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 71d92f6a73d83a648b515b6a3ba1a113
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Prefab/Character/Enemy/[Enemy] Troll Warrior.prefab
+  uploadId: 767041

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 738cdbd39e0294f6aa0a12ca405458da
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Animation/Character/Player/Wizard Poisoned/Attack.anim
+  uploadId: 767041

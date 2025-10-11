@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e08cd14326358354b9acc253cee4fa3d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Prefab/Character/Enemy/[Enemy] Gunner Zombie.prefab
+  uploadId: 767041

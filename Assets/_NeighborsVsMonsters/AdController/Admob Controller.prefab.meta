@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bc8a7a0d48d0afc4989af078d6424ecc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/AdController/Admob Controller.prefab
+  uploadId: 767041

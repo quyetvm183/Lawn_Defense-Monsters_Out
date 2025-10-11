@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0f99b96f3636a504585659d6d9214473
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Animation/Character/_Character Main Animator/-Walk.anim
+  uploadId: 767041

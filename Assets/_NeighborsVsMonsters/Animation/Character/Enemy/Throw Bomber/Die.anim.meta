@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 30539087044bc01489b9b2dfeadd91ab
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Animation/Character/Enemy/Throw Bomber/Die.anim
+  uploadId: 767041

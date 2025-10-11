@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 80e5769f3e0cb48ed91c6c16cb24335e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Prefab/Character/ID/Upgrade ID - Wizard
+    Healer.prefab
+  uploadId: 767041

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 14c62279b37e6c24d81d4bce87c6ded6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Prefab/System/LevelEnemyManager.prefab
+  uploadId: 767041

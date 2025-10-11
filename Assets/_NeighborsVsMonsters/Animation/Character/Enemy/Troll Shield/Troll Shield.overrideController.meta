@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9ab9d880cca28e042a0de232790d0683
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Animation/Character/Enemy/Troll Shield/Troll
+    Shield.overrideController
+  uploadId: 767041

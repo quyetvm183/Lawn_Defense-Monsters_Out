@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0b3d1e7795ef1cf40b031e4821bd133c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Prefab/Character/Enemy/[Enemy] Goblin.prefab
+  uploadId: 767041

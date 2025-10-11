@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0413879febdf84bc6bbf30ae7795213c
+timeCreated: 1481987272
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Animation/GUI/FloatingText.anim
+  uploadId: 767041

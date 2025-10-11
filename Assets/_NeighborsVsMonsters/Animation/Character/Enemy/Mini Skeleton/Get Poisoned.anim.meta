@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6f4a11b3810adf14b853e04ec3a73aeb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Animation/Character/Enemy/Mini Skeleton/Get
+    Poisoned.anim
+  uploadId: 767041

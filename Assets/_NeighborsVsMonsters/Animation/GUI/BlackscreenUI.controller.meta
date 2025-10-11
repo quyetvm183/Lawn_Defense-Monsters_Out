@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 371ce57912cd53d45904e49b407d1afd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Animation/GUI/BlackscreenUI.controller
+  uploadId: 767041

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5ae06b037fc0b4c6cbb5b109d79af0c8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Script/AutoAddManaUI.cs
+  uploadId: 767041

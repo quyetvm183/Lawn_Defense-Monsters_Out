@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7ae53a9bafcfcb84caad528dc38e5ed3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Prefab/Character/Player/[Player] Wizard
+    Ice.prefab
+  uploadId: 767041

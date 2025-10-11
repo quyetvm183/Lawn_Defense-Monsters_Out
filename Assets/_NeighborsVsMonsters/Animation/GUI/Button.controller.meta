@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4da955a6650ffc44b9283d1cd77bddc2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Animation/GUI/Button.controller
+  uploadId: 767041

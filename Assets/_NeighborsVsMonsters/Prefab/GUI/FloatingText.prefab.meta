@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1d0f464bdf98b448db66d24f73bff7fb
+timeCreated: 1481987371
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Prefab/GUI/FloatingText.prefab
+  uploadId: 767041

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a3a8c2488acd764caba1fc21a4a9c02
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Animation/Character/Player/Wizard Ice/Attack.anim
+  uploadId: 767041

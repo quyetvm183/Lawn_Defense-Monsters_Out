@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4932cdb5bdf7f5a418e44fc9aaaf05d3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Script/EnemyMeleeAttack.cs
+  uploadId: 767041

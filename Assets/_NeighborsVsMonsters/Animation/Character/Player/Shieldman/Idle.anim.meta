@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bf6756701ca196d47ac1ec1a940b1f9e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Animation/Character/Player/Shieldman/Idle.anim
+  uploadId: 767041

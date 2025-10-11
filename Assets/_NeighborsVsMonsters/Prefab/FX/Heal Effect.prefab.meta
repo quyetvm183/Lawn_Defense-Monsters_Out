@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ff672eaca96d32c419d7a1f1b0346e8d
+timeCreated: 1529246354
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Prefab/FX/Heal Effect.prefab
+  uploadId: 767041

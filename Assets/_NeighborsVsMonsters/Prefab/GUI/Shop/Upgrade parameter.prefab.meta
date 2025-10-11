@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b781451784b89994e8647f09a1d803ad
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Prefab/GUI/Shop/Upgrade parameter.prefab
+  uploadId: 767041

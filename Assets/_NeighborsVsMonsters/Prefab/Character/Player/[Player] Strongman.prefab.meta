@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 867afff3257836d4083e111950f04e86
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Prefab/Character/Player/[Player] Strongman.prefab
+  uploadId: 767041

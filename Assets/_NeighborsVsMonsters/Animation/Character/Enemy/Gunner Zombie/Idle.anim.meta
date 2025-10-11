@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: deb1aedf8f2a52d439eeda5f56468b5a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Animation/Character/Enemy/Gunner Zombie/Idle.anim
+  uploadId: 767041

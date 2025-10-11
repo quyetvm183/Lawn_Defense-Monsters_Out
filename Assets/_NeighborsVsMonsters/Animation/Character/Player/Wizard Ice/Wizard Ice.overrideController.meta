@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d150e4dd8fbd7874ab27ae5734258e06
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Animation/Character/Player/Wizard Ice/Wizard
+    Ice.overrideController
+  uploadId: 767041

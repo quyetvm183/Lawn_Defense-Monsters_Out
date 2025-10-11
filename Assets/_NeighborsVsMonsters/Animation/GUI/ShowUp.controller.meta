@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3356e2cf8c59fa54aa56a7583ff4b87c
+timeCreated: 1464627127
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250549
+  packageName: Neighbors Vs Monsters
+  packageVersion: 2.0.0
+  assetPath: Assets/_NeighborsVsMonsters/Animation/GUI/ShowUp.controller
+  uploadId: 767041
