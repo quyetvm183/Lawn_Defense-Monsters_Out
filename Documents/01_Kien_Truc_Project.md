@@ -6,7 +6,7 @@
 **🔄 Cập nhật lần cuối:** 2025-01-XX
 ---
 
-**Yêu cầu trước:** Đọc `00_Unity_Co_Ban.md` trước
+**Yêu cầu trước:** Đọc `00_Cac_Khai_Niem_Unity_Co_Ban.md` trước
 **Đối tượng độc giả:** Developers muốn hiểu cấu trúc project
 **Thời gian đọc ước tính:** 30-40 phút
 **Tài liệu liên quan:** → `02_He_Thong_Player_Day_Du.md`, `03_He_Thong_Enemy_Day_Du.md`
@@ -201,7 +201,7 @@ Lawn_Defense-Monsters_Out/
 │   └── TutorialInfo/                 ← Unity tutorial assets (có thể bỏ qua)
 │
 ├── Documents/                        ← **TÀI LIỆU NÀY**
-│   ├── 00_Unity_Co_Ban.md
+│   ├── 00_Cac_Khai_Niem_Unity_Co_Ban.md
 │   ├── 01_Kien_Truc_Project.md      ← BẠN Ở ĐÂY
 │   ├── scripts/                      ← Legacy Vietnamese docs
 │   └── ... (docs khác)

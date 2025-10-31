@@ -113,7 +113,7 @@ public class RotateCube : MonoBehaviour
 ### Ngày 5: Project Overview
 
 **Cần Nghiên Cứu**:
-1. Đọc `README.md`
+1. Đọc `README_VI.md`
 2. Đọc `01_Kien_Truc_Project.md`
 3. Khám phá folder structure:
    - `Assets/_MonstersOut/Scripts/Managers/` → Core managers

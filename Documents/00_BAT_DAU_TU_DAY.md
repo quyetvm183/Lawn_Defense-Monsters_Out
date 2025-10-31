@@ -41,7 +41,7 @@
 **Mục tiêu:** Hiểu Unity cơ bản mà không bị overwhelm
 
 **📚 Đọc:**
-1. **`00_Unity_Co_Ban.md`** (2-3 giờ)
+1. **`00_Cac_Khai_Niem_Unity_Co_Ban.md`** (2-3 giờ)
    - Unity là gì và hoạt động như thế nào
    - GameObject, Component, Prefab
    - Scripting cơ bản (MonoBehaviour, Update, Start)
@@ -94,7 +94,7 @@
    - Cơ chế bắn
    - Hệ thống di chuyển
 
-4. **`99_Tu_Dien_Thuat_Ngu.md`** (tham khảo, 10 phút)
+4. **`99_Tu_Dien.md`** (tham khảo, 10 phút)
    - Tra cứu các thuật ngữ bạn chưa hiểu
    - Giữ file này mở khi đọc docs khác
 
@@ -132,8 +132,8 @@
 ### Liên Tục: Tham Khảo & Khắc Phục Sự Cố
 
 **📚 Sử dụng khi cần:**
-- **`11_Khac_Phuc_Su_Co.md`** - Khi gặp lỗi
-- **`99_Tu_Dien_Thuat_Ngu.md`** - Khi thấy thuật ngữ lạ
+- **`11_Xu_Ly_Su_Co.md`** - Khi gặp lỗi
+- **`99_Tu_Dien.md`** - Khi thấy thuật ngữ lạ
 - **`13_Vi_Du_Code.md`** - Khi cần code snippets
 
 ---
@@ -147,7 +147,7 @@
 **Đọc theo thứ tự:**
 1. **`01_Kien_Truc_Project.md`** - Hiểu cấu trúc
 2. **`02_He_Thong_Player_Day_Du.md`** - Hệ thống auto-targeting độc đáo
-3. Đọc lướt **`00_Unity_Co_Ban.md`** - Bỏ qua phần đã biết
+3. Đọc lướt **`00_Cac_Khai_Niem_Unity_Co_Ban.md`** - Bỏ qua phần đã biết
 
 **Hành động:**
 - Mở project trong Unity
@@ -170,7 +170,7 @@
 
 **Muốn chỉnh sửa UI/menu?**
 - Docs của UI System - Implementation giao diện
-- ShopUI_VI.md - Hệ thống shop
+- He_Thong_Shop_UI.md - Hệ thống shop
 
 **Muốn thêm tính năng?**
 - `10_Huong_Dan_Thuc_Hanh.md` - Tutorials thực tế
@@ -184,8 +184,8 @@
 ### Tuần 1-2: Implementation (liên tục)
 
 **Tài nguyên:**
-- `11_Khac_Phuc_Su_Co.md` - Vấn đề thường gặp
-- `99_Tu_Dien_Thuat_Ngu.md` - Tham khảo thuật ngữ
+- `11_Xu_Ly_Su_Co.md` - Vấn đề thường gặp
+- `99_Tu_Dien.md` - Tham khảo thuật ngữ
 - Docs hiện có cho các hệ thống cụ thể
 
 **Best Practice:**
@@ -248,7 +248,7 @@
 
 ### "Tôi gặp lỗi và không biết tại sao"
 
-**→ Đọc:** `11_Khac_Phuc_Su_Co.md`
+**→ Đọc:** `11_Xu_Ly_Su_Co.md`
 **→ Tìm category của lỗi:**
 - Vấn đề di chuyển
 - Vấn đề bắn
@@ -302,14 +302,14 @@
 | File | Mục đích | Thời gian đọc | Khi nào dùng |
 |------|---------|---------------|--------------|
 | **99_Tu_Dien_Thuat_Ngu.md** | Định nghĩa thuật ngữ A-Z | 1-2 phút/từ | Không hiểu từ |
-| **12_Tham_Chieu_Truc_Quan.md** | Diagrams & visuals | 10-15 phút | Người học bằng hình |
-| **project-analysis_VI.md** | Phân tích kỹ thuật | 20-30 phút | Insight kỹ thuật sâu |
+| **12_Tham_Khao_Truc_Quan.md** | Diagrams & visuals | 10-15 phút | Người học bằng hình |
+| **Phan_Tich_Project.md** | Phân tích kỹ thuật | 20-30 phút | Insight kỹ thuật sâu |
 
 ### 📂 Legacy Documentation (Tùy Chọn)
 
 Nằm trong `/Documents/scripts/` - Documentation tiếng Việt gốc:
 - AI.md, Controllers.md, Helpers.md, Managers.md, Player.md, UI.md
-- Roadmap.md, Unity-Concepts.md, Workflow-Tasks.md
+- Lo_Trinh_Hoc_Tap.md, Cac_Khai_Niem_Unity.md, Quy_Trinh_Lam_Viec.md
 - (Nên dùng docs tiếng Anh mới, những file này cũ hơn)
 
 ---
@@ -339,7 +339,7 @@ Nằm trong `/Documents/scripts/` - Documentation tiếng Việt gốc:
 **Chọn dựa trên kinh nghiệm của bạn:**
 
 **Người Mới Hoàn Toàn:**
-- [ ] Đọc `00_Unity_Co_Ban.md` phần 1-3
+- [ ] Đọc `00_Cac_Khai_Niem_Unity_Co_Ban.md` phần 1-3
 - [ ] Hiểu GameObject & Components
 - [ ] Biết Prefab là gì
 
@@ -389,11 +389,11 @@ Nằm trong `/Documents/scripts/` - Documentation tiếng Việt gốc:
 
 **Khi bạn có câu hỏi:**
 
-1. **Kiểm Tra Glossary Trước:** `99_Tu_Dien_Thuat_Ngu.md`
+1. **Kiểm Tra Glossary Trước:** `99_Tu_Dien.md`
    - Định nghĩa thuật ngữ nhanh
    - Khái niệm Unity thường gặp
 
-2. **Kiểm Tra Troubleshooting:** `11_Khac_Phuc_Su_Co.md`
+2. **Kiểm Tra Troubleshooting:** `11_Xu_Ly_Su_Co.md`
    - Error messages
    - Vấn đề thường gặp
    - Giải pháp đã test trong project này
@@ -606,7 +606,7 @@ Chi tiết project:
 **Chọn lộ trình của bạn:**
 
 **Lộ Trình A: Người Mới (Chưa bao giờ dùng Unity)**
-→ Đi đến `00_Unity_Co_Ban.md`
+→ Đi đến `00_Cac_Khai_Niem_Unity_Co_Ban.md`
 
 **Lộ Trình B: Trung Cấp (Có kinh nghiệm Unity)**
 → Đi đến `01_Kien_Truc_Project.md`
@@ -645,7 +645,7 @@ Chi tiết project:
 
 **Sẵn sàng bắt đầu?** Chọn lộ trình ở trên và bắt đầu hành trình!
 
-**Có câu hỏi?** Kiểm tra `99_Tu_Dien_Thuat_Ngu.md` cho thuật ngữ, `11_Khac_Phuc_Su_Co.md` cho vấn đề.
+**Có câu hỏi?** Kiểm tra `99_Tu_Dien.md` cho thuật ngữ, `11_Xu_Ly_Su_Co.md` cho vấn đề.
 
 **Chúc may mắn! 🚀**
 
