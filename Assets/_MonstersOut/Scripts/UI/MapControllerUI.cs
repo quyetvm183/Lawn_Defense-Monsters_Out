@@ -47,7 +47,8 @@ namespace RGame
         void OnDisable()
         {
             //play the default music
-            SoundManager.PlayMusic(SoundManager.Instance.musicsGame);
+            if (SoundManager.Instance != null)
+                SoundManager.PlayMusic(SoundManager.Instance.musicsGame);
         }
 
         public void SetCurrentWorld(int world)

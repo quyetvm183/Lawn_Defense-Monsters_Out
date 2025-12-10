@@ -149,8 +149,12 @@ namespace RGame
             //Check the music and sound state
             soundImage.sprite = GlobalValue.isSound ? soundImageOn : soundImageOff;
             musicImage.sprite = GlobalValue.isMusic ? musicImageOn : musicImageOff;
-            SoundManager.SoundVolume = GlobalValue.isSound ? 1 : 0;
-            SoundManager.MusicVolume = GlobalValue.isMusic ? SoundManager.Instance.musicsGameVolume : 0;
+
+            if (SoundManager.Instance != null)
+            {
+                SoundManager.SoundVolume = GlobalValue.isSound ? 1 : 0;
+                SoundManager.MusicVolume = GlobalValue.isMusic ? SoundManager.Instance.musicsGameVolume : 0;
+            }
         }
 
         public void OpenShop(bool open)
