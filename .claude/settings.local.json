@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(for file in 01_Kien_Truc_Project.md 02_He_Thong_Player.md 03_He_Thong_Enemy.md 04_He_Thong_UI.md 05_Cac_Manager.md)",
+      "Bash(do echo \"=== $file ===\")",
+      "Bash(done)",
+      "Bash(for file in 01_Kien_Truc_Project.md 02_He_Thong_Player.md 03_He_Thong_Enemy.md 04_He_Thong_UI.md 05_Cac_Manager.md 10_Huong_Dan_Thuc_Hanh.md)",
+      "Bash(do if [ -f \"$file\" ])",
+      "Bash(then echo \"=== $file ===\")",
+      "Bash(else echo \"$file not found\")",
+      "Bash(fi)",
+      "Bash(for file in \"02_He_Thong_Player_Day_Du.md\" \"03_He_Thong_Enemy_Day_Du.md\" \"04_He_Thong_UI_Day_Du.md\" \"05_Cac_Manager_Day_Du.md\" \"10_Huong_Dan_Thuc_Hanh.md\" \"11_Xu_Ly_Su_Co.md\" \"13_Vi_Du_Code.md\" \"99_Tu_Dien.md\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
