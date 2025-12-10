@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 namespace RGame
 {
@@ -42,23 +42,26 @@ namespace RGame
 
 		public void PauseMusic(bool isPause)
 		{
-			if (isPause)
-				Instance.musicAudio.mute = true;
-			else
-				Instance.musicAudio.mute = false;
+			if (Instance != null)
+			{
+				if (isPause)
+					Instance.musicAudio.mute = true;
+				else
+					Instance.musicAudio.mute = false;
+			}
 		}
 		//set the volume for the music
 		public static float MusicVolume
 		{
 
-			set { Instance.musicAudio.volume = value; }
-			get { return Instance.musicAudio.volume; }
+			set { if (Instance != null) Instance.musicAudio.volume = value; }
+			get { return Instance != null ? Instance.musicAudio.volume : 0; }
 		}
 		//set the volume for the sound
 		public static float SoundVolume
 		{
-			set { Instance.soundFx.volume = value; }
-			get { return Instance.soundFx.volume; }
+			set { if (Instance != null) Instance.soundFx.volume = value; }
+			get { return Instance != null ? Instance.soundFx.volume : 0; }
 		}
 		// Use this for initialization
 		void Awake()
@@ -77,7 +80,8 @@ namespace RGame
 		//Play the click sound
 		public static void Click()
 		{
-			PlaySfx(Instance.soundClick);
+			if (Instance != null)
+				PlaySfx(Instance.soundClick);
 		}
 
 		public void ClickBut()
@@ -113,12 +117,14 @@ namespace RGame
 		//play the clip as music with the new volume
 		public static void PlayMusic(AudioClip clip)
 		{
-			Instance.PlaySound(clip, Instance.musicAudio);
+			if (Instance != null)
+				Instance.PlaySound(clip, Instance.musicAudio);
 		}
 
 		public static void PlayMusic(AudioClip clip, float volume)
 		{
-			Instance.PlaySound(clip, Instance.musicAudio, volume);
+			if (Instance != null)
+				Instance.PlaySound(clip, Instance.musicAudio, volume);
 		}
 
 		private void PlaySound(AudioClip clip, AudioSource audioOut)
