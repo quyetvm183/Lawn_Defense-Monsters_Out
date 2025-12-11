@@ -31,3 +31,5 @@ Là sơ đồ khối đơn giản mô tả kịch bản trò chơi, ví dụ
 để hoàn thiện báo cáo
 
 tạo file md chứa code plantUML để vẽ tất cả sơ đồ
+
+giúp tôi tạo ra các diagram
