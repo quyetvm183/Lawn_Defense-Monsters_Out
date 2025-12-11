@@ -12,9 +12,6 @@ namespace RGame
         public GameObject ShopUI;
         public GameObject Loading;
         public GameObject Settings;
-        //The facebook and twitter Link
-        public string facebookLink;
-        public string twitterLink = "https://twitter.com/";
         //The coin text object
         public Text[] coinTxt;
 
@@ -98,18 +95,6 @@ namespace RGame
             BlackScreenUI.instance.Show(0.2f);
             MapUI.SetActive(open);
             BlackScreenUI.instance.Hide(0.2f);
-        }
-
-        public void Facebook()
-        {
-            SoundManager.Click();
-            Application.OpenURL(facebookLink);
-        }
-
-        public void Twitter()
-        {
-            SoundManager.Click();
-            Application.OpenURL(twitterLink);
         }
 
         public void ExitGame()
