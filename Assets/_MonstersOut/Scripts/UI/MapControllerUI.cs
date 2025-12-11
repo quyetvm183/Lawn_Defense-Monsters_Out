@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
+
 namespace RGame
 {
-    public class MapControllerUI : MonoBehaviour
+    public class MapControllerUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
     {
         //	public Transform BlockLevel;
         public RectTransform BlockLevel;
@@ -17,11 +19,47 @@ namespace RGame
 
         int currentPos = 0;
         public AudioClip music;
+
+        // Drag and swipe variables
+        private Vector2 dragStartPos;
+        private float dragStartX;
+        private bool isDragging = false;
+        private float dragVelocity = 0f;
+
+        // Swipe detection
+        public float swipeThreshold = 50f; // Minimum distance to consider as swipe
+        public float swipeVelocityThreshold = 500f; // Minimum velocity to trigger swipe
+
+        // Smooth transition
+        private bool isTransitioning = false;
+        private float targetPosX;
+        public float smoothSpeed = 10f;
         // Use this for initialization
         void Start()
         {
             //init the dot images
             SetDots();
+            targetPosX = newPosX;
+        }
+
+        void Update()
+        {
+            // Smooth transition to target position
+            if (isTransitioning && !isDragging)
+            {
+                newPosX = Mathf.Lerp(newPosX, targetPosX, Time.deltaTime * smoothSpeed);
+                BlockLevel.anchoredPosition = new Vector2(newPosX, BlockLevel.anchoredPosition.y);
+
+                // Check if reached target
+                if (Mathf.Abs(newPosX - targetPosX) < 0.1f)
+                {
+                    newPosX = targetPosX;
+                    BlockLevel.anchoredPosition = new Vector2(newPosX, BlockLevel.anchoredPosition.y);
+                    isTransitioning = false;
+                    UpdateCurrentPosFromX();
+                    SetDots();
+                }
+            }
         }
 
         void SetDots()
@@ -35,6 +73,13 @@ namespace RGame
             //then active the dot present for the world
             Dots[currentPos].color = Color.yellow;
             Dots[currentPos].rectTransform.sizeDelta = new Vector2(38, 38);
+        }
+
+        void UpdateCurrentPosFromX()
+        {
+            // Calculate current position based on X position
+            currentPos = Mathf.RoundToInt(-newPosX / step);
+            currentPos = Mathf.Clamp(currentPos, 0, howManyBlocks - 1);
         }
 
         void OnEnable()
@@ -70,6 +115,8 @@ namespace RGame
             BlockLevel.anchoredPosition = new Vector2(newPosX, BlockLevel.anchoredPosition.y);
         }
 
+        // OLD BUTTON METHODS - Can be removed if not using buttons anymore
+        // Keep these if you want to add back navigation buttons in the future
         bool allowPressButton = true;
         public void Next()
         {
@@ -163,6 +210,78 @@ namespace RGame
             GlobalValue.LevelPass = (GlobalValue.LevelPass + 1000);
             //Load the scene again
             UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
+            SoundManager.Click();
+        }
+
+        // Drag handlers for swipe functionality
+        public void OnBeginDrag(PointerEventData eventData)
+        {
+            isDragging = true;
+            isTransitioning = false;
+            dragStartPos = eventData.position;
+            dragStartX = newPosX;
+            dragVelocity = 0f;
+        }
+
+        public void OnDrag(PointerEventData eventData)
+        {
+            if (!isDragging) return;
+
+            // Calculate drag delta
+            float dragDelta = eventData.position.x - dragStartPos.x;
+
+            // Update position based on drag
+            newPosX = dragStartX + dragDelta;
+
+            // Clamp within bounds
+            newPosX = Mathf.Clamp(newPosX, -step * (howManyBlocks - 1), 0);
+
+            // Update BlockLevel position immediately
+            BlockLevel.anchoredPosition = new Vector2(newPosX, BlockLevel.anchoredPosition.y);
+
+            // Calculate velocity for swipe detection
+            dragVelocity = eventData.delta.x / Time.deltaTime;
+
+            // Update dots while dragging
+            UpdateCurrentPosFromX();
+            SetDots();
+        }
+
+        public void OnEndDrag(PointerEventData eventData)
+        {
+            isDragging = false;
+
+            float dragDistance = eventData.position.x - dragStartPos.x;
+            float absDragDistance = Mathf.Abs(dragDistance);
+            float absVelocity = Mathf.Abs(dragVelocity);
+
+            // Check if it's a swipe (fast velocity)
+            if (absVelocity > swipeVelocityThreshold && absDragDistance > swipeThreshold)
+            {
+                // Swipe detected - move to next/previous world
+                if (dragVelocity > 0 && currentPos > 0)
+                {
+                    // Swipe right - go to previous
+                    currentPos--;
+                }
+                else if (dragVelocity < 0 && currentPos < howManyBlocks - 1)
+                {
+                    // Swipe left - go to next
+                    currentPos++;
+                }
+            }
+            else
+            {
+                // Not a swipe - snap to nearest position
+                currentPos = Mathf.RoundToInt(-newPosX / step);
+                currentPos = Mathf.Clamp(currentPos, 0, howManyBlocks - 1);
+            }
+
+            // Set target position and start transition
+            targetPosX = -currentPos * step;
+            isTransitioning = true;
+
+            // Play sound
             SoundManager.Click();
         }
     }
