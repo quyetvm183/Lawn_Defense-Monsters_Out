@@ -7681,6 +7681,10 @@ MonoBehaviour:
   - {fileID: 1356664186}
   - {fileID: 1631734194}
   music: {fileID: 0}
+  backgroundImage: {fileID: 0}
+  worldBackgrounds: []
+  useFadeTransition: 1
+  fadeDuration: 0.3
   swipeThreshold: 50
   swipeVelocityThreshold: 500
   smoothSpeed: 10
@@ -28745,6 +28749,7 @@ MonoBehaviour:
   soundImageOff: {fileID: -921537437, guid: e4365edcaf1e2451383f9306fb8b1d60, type: 3}
   musicImageOn: {fileID: -1133185898, guid: e4365edcaf1e2451383f9306fb8b1d60, type: 3}
   musicImageOff: {fileID: -1594794922, guid: e4365edcaf1e2451383f9306fb8b1d60, type: 3}
+  resetButtonText: {fileID: 0}
   slider: {fileID: 9058057462328230135}
   progressText: {fileID: 9058057461462409253}
 --- !u!1001 &1978336308
@@ -32078,8 +32083,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1700, y: 552.5}
+  m_AnchoredPosition: {x: -4.6067, y: 0}
+  m_SizeDelta: {x: 1414.4614, y: 552.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &332871493496241445
 RectTransform:

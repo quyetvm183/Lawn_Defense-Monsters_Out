@@ -20,6 +20,9 @@ namespace RGame
         public Image musicImage;
         public Sprite soundImageOn, soundImageOff, musicImageOn, musicImageOff;
 
+        [Header("Reset Data")]
+        public Text resetButtonText; // Text component của nút Reset (optional - để hiển thị cảnh báo)
+
         void Awake()
         {
             //Init the UI panels
@@ -172,11 +175,85 @@ namespace RGame
             }
         }
 
+        private float lastResetClickTime = 0f;
+        private float resetClickDelay = 3f; // Thời gian chờ giữa 2 lần nhấn (3 giây)
+
         public void ResetData()
+        {
+            #if UNITY_EDITOR
+            // Trong Unity Editor, sử dụng dialog xác nhận
+            bool confirm = UnityEditor.EditorUtility.DisplayDialog(
+                "Reset Data",
+                "Bạn có chắc chắn muốn xóa toàn bộ dữ liệu game?\n\nHành động này không thể hoàn tác!",
+                "Xóa dữ liệu",
+                "Hủy"
+            );
+
+            if (confirm)
+            {
+                Debug.Log("Đang xóa toàn bộ dữ liệu...");
+                PerformReset();
+            }
+            else
+            {
+                Debug.Log("Hủy reset data");
+            }
+            #else
+            // Trong game build, yêu cầu nhấn 2 lần trong vòng 3 giây
+            if (Time.time - lastResetClickTime < resetClickDelay)
+            {
+                // Lần nhấn thứ 2 - Thực hiện reset
+                Debug.Log("Đang xóa toàn bộ dữ liệu...");
+                PerformReset();
+                lastResetClickTime = 0f; // Reset timer
+            }
+            else
+            {
+                // Lần nhấn thứ nhất - Cảnh báo
+                lastResetClickTime = Time.time;
+                Debug.LogWarning("CẢNH BÁO: Nhấn nút Reset lần nữa trong vòng 3 giây để xác nhận xóa dữ liệu!");
+                SoundManager.Click(); // Play warning sound
+
+                // Hiển thị thông báo UI cho người dùng
+                if (resetButtonText != null)
+                {
+                    StartCoroutine(ShowResetWarning());
+                }
+            }
+            #endif
+        }
+
+        IEnumerator ShowResetWarning()
+        {
+            // Lưu text gốc
+            string originalText = resetButtonText.text;
+
+            // Hiển thị cảnh báo
+            resetButtonText.text = "Nhấn lại để xác nhận!";
+            resetButtonText.color = Color.red;
+
+            // Chờ 3 giây
+            yield return new WaitForSeconds(resetClickDelay);
+
+            // Reset về text gốc
+            resetButtonText.text = originalText;
+            resetButtonText.color = Color.white;
+        }
+
+        private void PerformReset()
         {
             //call delete all data
             if (GameMode.Instance)
+            {
                 GameMode.Instance.ResetDATA();
+            }
+            else
+            {
+                // Fallback nếu GameMode.Instance không tồn tại
+                PlayerPrefs.DeleteAll();
+                PlayerPrefs.Save();
+                UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+            }
         }
     }
 }
