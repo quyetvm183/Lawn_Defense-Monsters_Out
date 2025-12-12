@@ -4575,7 +4575,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 73208bb5fa9ee42b2ad8c43a1c353dad, type: 3}
+  m_Sprite: {fileID: -985660270841655580, guid: 4d3367728ad45c04897ee35653b15e44,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -32017,8 +32018,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -9.0000305, y: 88.8}
-  m_SizeDelta: {x: -81, y: -374}
+  m_AnchoredPosition: {x: -4.7500153, y: -10}
+  m_SizeDelta: {x: -89.50003, y: -380}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &332770426127378337
 RectTransform:
@@ -32440,7 +32441,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c0bbf78f2e88ee34296ad8f1f041e7ce, type: 3}
+  m_Sprite: {fileID: 2000926784, guid: 8f8cd8ee4e8314d4eabf247257e09185, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -32591,21 +32592,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 71d3faf2e1bc32c45a663eef476d9783, type: 3}
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 45
+    m_MaxSize: 50
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Not enough coins!
-
-    Watch video for coins!'
+  m_Text: Not enough coins!
 --- !u!114 &438373330792170369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32859,7 +32858,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd3b1b660b8bc0f40bc73c49e86d4597, type: 3}
+  m_Sprite: {fileID: -184169926, guid: e4365edcaf1e2451383f9306fb8b1d60, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
