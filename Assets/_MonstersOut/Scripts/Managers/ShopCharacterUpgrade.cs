@@ -121,6 +121,10 @@ namespace RGame
                 characterID.UpgradeCharacter(upgradeHealth, upgradeMelee, upgradeRange, upgradeCrit);
                 UpdateParameter();
             }
+            else
+            {
+                NotEnoughCoins.Instance.ShowUp();
+            }
         }
     }
 }
