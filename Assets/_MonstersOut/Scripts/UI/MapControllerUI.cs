@@ -20,6 +20,16 @@ namespace RGame
         int currentPos = 0;
         public AudioClip music;
 
+        [Header("=== WORLD BACKGROUNDS ===")]
+        //Background image component to display the world background
+        public Image backgroundImage;
+        //Array of background sprites for each world
+        public Sprite[] worldBackgrounds;
+        //Enable smooth fade transition between backgrounds
+        public bool useFadeTransition = true;
+        //Duration of fade effect in seconds
+        public float fadeDuration = 0.3f;
+
         // Drag and swipe variables
         private Vector2 dragStartPos;
         private float dragStartX;
@@ -73,6 +83,9 @@ namespace RGame
             //then active the dot present for the world
             Dots[currentPos].color = Color.yellow;
             Dots[currentPos].rectTransform.sizeDelta = new Vector2(38, 38);
+
+            //update the background for current world
+            UpdateBackground();
         }
 
         void UpdateCurrentPosFromX()
@@ -211,6 +224,71 @@ namespace RGame
             //Load the scene again
             UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
             SoundManager.Click();
+        }
+
+        /// <summary>
+        /// Update the background image based on current world position
+        /// </summary>
+        void UpdateBackground()
+        {
+            // Check if background system is configured
+            if (backgroundImage == null || worldBackgrounds == null || worldBackgrounds.Length == 0)
+                return;
+
+            // Check if current position has a corresponding background
+            if (currentPos >= worldBackgrounds.Length)
+            {
+                Debug.LogWarning($"No background sprite for world {currentPos + 1}. Please add more sprites to worldBackgrounds array.");
+                return;
+            }
+
+            // Use fade transition or instant change
+            if (useFadeTransition)
+            {
+                StartCoroutine(FadeToNewBackground(currentPos));
+            }
+            else
+            {
+                backgroundImage.sprite = worldBackgrounds[currentPos];
+            }
+        }
+
+        /// <summary>
+        /// Smoothly fade from current background to new background
+        /// </summary>
+        IEnumerator FadeToNewBackground(int worldIndex)
+        {
+            if (backgroundImage == null || worldBackgrounds.Length <= worldIndex)
+                yield break;
+
+            // Store original color
+            Color originalColor = backgroundImage.color;
+
+            // Fade out
+            float elapsed = 0f;
+            while (elapsed < fadeDuration)
+            {
+                elapsed += Time.deltaTime;
+                float alpha = Mathf.Lerp(1f, 0f, elapsed / fadeDuration);
+                backgroundImage.color = new Color(originalColor.r, originalColor.g, originalColor.b, alpha);
+                yield return null;
+            }
+
+            // Change sprite while invisible
+            backgroundImage.sprite = worldBackgrounds[worldIndex];
+
+            // Fade in
+            elapsed = 0f;
+            while (elapsed < fadeDuration)
+            {
+                elapsed += Time.deltaTime;
+                float alpha = Mathf.Lerp(0f, 1f, elapsed / fadeDuration);
+                backgroundImage.color = new Color(originalColor.r, originalColor.g, originalColor.b, alpha);
+                yield return null;
+            }
+
+            // Ensure full opacity
+            backgroundImage.color = originalColor;
         }
 
         // Drag handlers for swipe functionality

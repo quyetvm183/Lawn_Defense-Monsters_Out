@@ -53,7 +53,7 @@ namespace RGame
             //init the list of the characters
             listCharacters = new List<GameObject>();
             //check to unlock the character
-            if (GameMode.Instance == null || ((GlobalValue.LevelPass + 1) >= characterID.unlockAtLevel))
+            if ((GlobalValue.LevelPass + 1) >= characterID.unlockAtLevel)
             {
                 isUnlocked = true;
             }
